@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Política de Privacidade — Gestão Equipa</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    max-width: 46rem; margin: 0 auto; padding: 2.5rem 1.25rem 5rem;
+    line-height: 1.65; color: #1C1A17; background: #FBFAF7;
+  }
+  @media (prefers-color-scheme: dark) { body { color: #E8E4DC; background: #171614; } }
+  h1 { font-size: 1.75rem; margin: 0 0 .25rem; letter-spacing: -.02em; }
+  h2 { font-size: 1.05rem; margin: 2.25rem 0 .5rem; text-transform: uppercase;
+       letter-spacing: .06em; border-bottom: 1px solid currentColor; padding-bottom: .35rem; }
+  .data { opacity: .65; font-size: .9rem; margin: 0 0 2rem; }
+  table { width: 100%; border-collapse: collapse; font-size: .95rem; margin: .5rem 0 1rem; }
+  th, td { text-align: left; padding: .45rem .5rem .45rem 0; vertical-align: top;
+           border-bottom: 1px solid rgba(128,128,128,.3); }
+  th { font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; opacity: .7; }
+  .porpreencher { background: #FFE9A8; color: #4A3B00; padding: 0 .25rem; border-radius: 2px; font-weight: 700; }
+  ul { padding-left: 1.15rem; }
+  li { margin: .3rem 0; }
+</style>
+</head>
+<body>
+
+<h1>Política de Privacidade</h1>
+<p class="data">Aplicação <strong>Gestão Equipa</strong> · última atualização: 11 de setembro de 2026</p>
+
+<h2>Quem trata os dados</h2>
+<p>
+  O responsável pelo tratamento dos dados recolhidos por esta aplicação é
+  <strong>GULOSOS EXITOS, LDA</strong>, com sede em Caminho de Avintes, n.º 247,
+  4430-671 Vila Nova de Gaia, NIPC 515983683.
+  Para qualquer questão sobre os teus dados, escreve para
+  <a href="mailto:slowcofffee.tempo@gmail.com">slowcofffee.tempo@gmail.com</a>.
+</p>
+
+<h2>Para que serve esta aplicação</h2>
+<p>
+  A Gestão Equipa é uma ferramenta interna de gestão de operações, usada
+  exclusivamente pelas pessoas que trabalham nos estabelecimentos da empresa.
+  Não está aberta ao público e não se destina a clientes. Serve para registar
+  horas de trabalho, escalas, tarefas, temperaturas de equipamentos de frio,
+  fechos de caixa e outros registos do dia a dia.
+</p>
+
+<h2>Que dados são recolhidos</h2>
+<table>
+  <thead><tr><th>Dados</th><th>Para quê</th></tr></thead>
+  <tbody>
+    <tr><td>Nome, função, negócio a que pertence e código de acesso</td>
+        <td>Identificar quem está a usar a aplicação e o que lhe compete</td></tr>
+    <tr><td>Horas de entrada e de saída, escalas, faltas, férias, banco de horas</td>
+        <td>Registo do tempo de trabalho e processamento salarial</td></tr>
+    <tr><td>Distância ao estabelecimento no momento em que se pica o ponto</td>
+        <td>Confirmar que a picagem foi feita no local de trabalho</td></tr>
+    <tr><td>Documentos que a pessoa ou a gerência carreguem (recibos, contratos, baixas médicas)</td>
+        <td>Arquivo dos documentos laborais</td></tr>
+    <tr><td>Tarefas, ocorrências, avarias, passagens de turno</td>
+        <td>Organização do trabalho</td></tr>
+    <tr><td>Temperaturas de equipamentos, fechos de caixa, pequenos-almoços servidos</td>
+        <td>Registos obrigatórios de higiene e segurança alimentar, e contabilísticos</td></tr>
+    <tr><td>Identificador do dispositivo para notificações</td>
+        <td>Enviar avisos ao telemóvel (turno a acabar, tarefa atribuída)</td></tr>
+  </tbody>
+</table>
+
+<h2>Localização</h2>
+<p>
+  A aplicação pede acesso à localização <strong>apenas no momento em que a
+  pessoa carrega no botão de picar o ponto</strong>. Nesse instante calcula a
+  distância ao estabelecimento e guarda essa distância. Não há qualquer
+  seguimento contínuo da localização: a aplicação não sabe onde estás antes
+  nem depois de picares, e não guarda coordenadas — só a distância em metros
+  ao local de trabalho no momento da picagem.
+</p>
+
+<h2>Com quem são partilhados</h2>
+<ul>
+  <li><strong>Não são vendidos a ninguém</strong> e não são usados para publicidade.</li>
+  <li>Não há publicidade nem ferramentas de análise de comportamento na aplicação.</li>
+  <li>Os dados ficam alojados na <strong>Supabase</strong>, que presta o serviço de base
+      de dados e armazenamento em nome da empresa
+      (servidores na União Europeia).</li>
+  <li>As notificações passam pelos serviços da <strong>Expo</strong>, da <strong>Apple</strong>
+      (nos iPhones) e da <strong>Google</strong> (nos Android), que são necessários para
+      qualquer notificação chegar a um telemóvel.</li>
+  <li>Dados de horas e ausências podem ser enviados à contabilidade da empresa,
+      como exige o processamento salarial.</li>
+</ul>
+
+<h2>Durante quanto tempo são guardados</h2>
+<p>
+  A aplicação apaga sozinha o que já não precisa de guardar. Uma limpeza
+  automática corre todas as semanas e aplica estes prazos:
+</p>
+<table>
+  <thead><tr><th>Registo</th><th>Guardado durante</th></tr></thead>
+  <tbody>
+    <tr><td>Registos de entrada e de saída (ponto)</td><td>5 anos, como exige o artigo 202.º do Código do Trabalho</td></tr>
+    <tr><td>Baixas médicas, atestados e justificações de falta</td><td>2 anos</td></tr>
+    <tr><td>Temperaturas dos equipamentos de frio</td><td>1 ano</td></tr>
+    <tr><td>Avarias resolvidas</td><td>1 ano</td></tr>
+    <tr><td>Atas de reuniões</td><td>6 meses</td></tr>
+    <tr><td>Notas de passagem de turno</td><td>6 meses</td></tr>
+    <tr><td>Notificações enviadas</td><td>3 meses</td></tr>
+  </tbody>
+</table>
+<p>
+  As escalas, o banco de horas, as faltas e os fechos de caixa não são
+  apagados: são a base do processamento salarial e da contabilidade, e ficam
+  enquanto a empresa deles precisar para cumprir as suas obrigações legais e
+  fiscais.
+</p>
+<p>
+  Quando alguém deixa de trabalhar na empresa, o acesso à aplicação é
+  revogado de imediato. Os registos que a lei obriga a conservar mantêm-se
+  pelo prazo devido, sem que a pessoa lhes continue a ter acesso.
+</p>
+
+<h2>Os teus direitos</h2>
+<p>
+  Podes pedir acesso aos teus dados, a correção do que estiver errado, o
+  apagamento do que já não seja preciso conservar, e opor-te a tratamentos
+  que não tenham base legal. Para exercer qualquer destes direitos, fala com
+  a gerência ou escreve para
+  <a href="mailto:slowcofffee.tempo@gmail.com">slowcofffee.tempo@gmail.com</a>.
+  Tens também o direito de apresentar queixa à Comissão Nacional de Proteção
+  de Dados (CNPD).
+</p>
+
+<h2>Segurança</h2>
+<p>
+  O acesso faz-se por um código pessoal. Cada pessoa vê apenas o que lhe
+  compete: um colaborador vê os seus registos, um chefe de turno vê o seu
+  estabelecimento, e a gerência vê o conjunto. Estas separações estão
+  aplicadas na própria base de dados e não dependem apenas do que a aplicação
+  mostra no ecrã. As ligações são cifradas.
+</p>
+
+<h2>Alterações a esta política</h2>
+<p>
+  Se esta política mudar, a versão atualizada passa a estar neste mesmo
+  endereço, com a data da alteração no topo.
+</p>
+
+</body>
+</html>
